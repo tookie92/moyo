@@ -39,7 +39,7 @@ const Characteristics = () => {
         {/* About */}
         <div className='flex flex-col w-full  gap-10 mt-10'>
             <div className=' flex flex-col gap-4 '>
-                <p className='font-mono text-4xl font-normal italic'> about </p>
+                <h1 className='font-mono text-4xl font-normal italic'> about </h1>
                 <Separator className='bg-black'/>
             </div>
             <div className='flex gap-40  '>
@@ -49,7 +49,7 @@ const Characteristics = () => {
                     <p className='font-sans '> A social app designed to make volunteering simple, social, and rewarding. MOYO lets young adults discover opportunities nearby, join with one tap, and feel impact through purpose and connection</p>
                 </div>
                 <div className='flex flex-col w-1/2 gap-2 '>
-                    <p className='font-sans font-semibold '> Project Overview </p>
+                    <p className='font-sans font-semibold '> Problem Statement </p>
                     <Separator className='bg-black'/>
                     <p className='font-sans '> Young adults want to contribute through volunteering — but current platforms make the experience overwhelming. Opportunities feel hard to discover and the process lacks social connection.</p>
                 </div>

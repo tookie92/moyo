@@ -32,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${poppins.variable} ${notoSerifGeorgian.variable}  antialiased`}
+        className={`${poppins.variable} ${notoSerifGeorgian.variable} bg-foundation  antialiased`}
       >
         {children}
       </body>

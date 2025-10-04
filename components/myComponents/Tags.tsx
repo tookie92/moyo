@@ -9,7 +9,7 @@ interface MyTagsProps {
 
 const MyTags = ({ children, classname }: MyTagsProps) => {
   return (
-    <Badge className={clsx(`rounded-full `, classname? classname : 'border-black text-white px-8 py-2 bg-primary')}>
+    <Badge className={clsx(`rounded-full  px-8 py-2 border-black `, classname? classname : ' text-white  bg-primary')}>
       <span className='font-sans font-normal'> {children} </span>
     </Badge>
   )

@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import SplitText from '../SplitText'
 
 const Hero = () => {
   return (
@@ -13,6 +14,7 @@ const Hero = () => {
                     height={500}
                     priority
                 />
+               
                 <div className='flex flex-col gap-8 mt-8'>
                     <p className='font-sans text-4xl leading-[1.5]'>
                         Your easy way to <span className='font-mono italic'>volunteer</span> and<span className='font-mono italic'> connect</span> with others
