@@ -22,9 +22,9 @@ const StyleGuide = () => {
           />
         </div>
         <div className='w-full flex-col gap-30 flex'>
-          <div className='flex w-full gap-20'> 
+          <div className='flex flex-col lg:flex-row w-full gap-20'> 
             {/* Poppins */}
-            <div className='w-1/2 flex-col flex gap-20'> 
+            <div className='w-full lg:w-1/2 flex-col flex gap-8 lg:gap-20'> 
              <div className=' flex flex-col  gap-4 '>
                 <h1 className='font-sans text-4xl font-normal'> Poppins </h1>
                 <Separator className='bg-black'/>
@@ -40,7 +40,7 @@ const StyleGuide = () => {
                 </div>
               </div>
             {/* Poppins */}
-            <div className='w-1/2 flex-col flex gap-20'> 
+            <div className='w-full lg:w-1/2 flex-col flex  gap-8 lg:gap-20'> 
              <div className=' flex flex-col  gap-4 '>
                 <h1 className='font-mono  text-4xl font-normal'> Georgia </h1>
                 <Separator className='bg-black'/>

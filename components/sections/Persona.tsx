@@ -6,7 +6,7 @@ import Mood from '../myComponents/Mood'
 
 const Persona = () => {
   return (
-    <div id='persona' className='snap-x scroll-mt-9 xl:scroll-mt-28 w-full h-full py-10 bg-secondary'>
+    <div className='w-full h-full py-10 bg-secondary'>
         <div className='flex flex-col gap-10 md:gap-20 lg:gap-10 px-5 md:px-20 lg:px-40 xl:container xl:mx-auto'>
             <div className='flex flex-col gap-4'>
                 <h1 className='font-mono text-4xl font-normal italic'>User Persona</h1>
@@ -27,7 +27,7 @@ const Persona = () => {
                 <div className='flex flex-col gap-4 w-full lg:w-2/3 p-4 md:p-8'>
                     <h3 className='font-sans text-2xl md:text-3xl font-semibold'>Sophie Social</h3>
                     <p className='font-sans text-lg md:text-xl'>
-                       {` "I want volunteering to feel `}<span className='text-primary font-mono italic'>simple, social, and meaningful</span> {`— not like another project on my to-do list."`}
+                        {`"I want volunteering to feel`} <span className='text-primary font-mono italic'>simple, social, and meaningful</span>{` — not like another project on my to-do list."`}
                     </p>
                     <div className='flex gap-3 md:gap-4 flex-wrap mt-4'>
                         <MyTags classname='bg-white text-black text-base md:text-xl'>29 years</MyTags>
@@ -40,8 +40,8 @@ const Persona = () => {
                 </div>
             </div>
 
-            <div className='flex flex-col gap-4 w-full h-[300px] md:h-[427px] overflow-hidden'>
-                <div className='w-full h-full scale-95'>
+            <div className='flex flex-col gap-4 w-full overflow-x-auto overflow-y-hidden'>
+                <div className='w-full min-w-[800px] h-[300px] md:min-w-full md:h-[427px]'>
                     <Mood className="w-full h-full" />
                 </div>
             </div>

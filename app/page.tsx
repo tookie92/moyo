@@ -19,18 +19,20 @@ export default function Home() {
      <main className="m-0 p-0 w-full mx-auto">
       <Navbar/>
       <Hero />
-       <Characteristics/>
+        <Characteristics/>
       <Statistics/>
       <Research/>
       <Persona/>
       <UserFlow/>
       <Principles/>
       <StyleGuide/>
-       <Lofi/>
-       <HiFiOne/>
-       <Break/>
-       <HiFiSecond/>
-       <Contact/>
+      <Lofi/>
+      <HiFiOne/>
+      <Break/>
+      <HiFiSecond/>
+      <Contact/> 
+     {/* 
+       */}
     </main>
   );
 }

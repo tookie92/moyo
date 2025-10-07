@@ -22,7 +22,7 @@ const UserFlow = () => {
                 <Separator className='bg-black'/>
             </div>
         <div className=' w-full flex flex-col gap-20 '>
-            <div className='flex flex-col w-1/2 gap-2 '>
+            <div className='flex flex-col w-full lg:w-1/2 gap-2 '>
                 <p className='font-sans font-semibold '> Flow 1 </p>
                 <Separator className='bg-black'/>
                 <p className='font-sans'> “<b>As</b> a person interested in volunteering, <b>I want to</b> quickly discover an event that matches my time and location, <b>so I can</b> easily join without feeling overwhelmed.”</p>

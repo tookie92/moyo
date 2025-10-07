@@ -5,8 +5,8 @@ import Section from '../myComponents/Section'
 
 const Contact = () => {
   return (
-    <Section id='contact' background="foundation" classname='snap-x scroll-mt-9 lg:scroll-mt-9 relative flex min-h-screen py-20'>
-        <div className='relative flex flex-col w-full gap-10 h-full items-center justify-center'>
+    <Section id='contact' background="foundation" classname='snap-x scroll-mt-0 lg:scroll-mt-9 relative items-center justify-center flex min-h-screen py-20'>
+        <div className='relative flex  flex-col w-full gap-10 h-full items-center z-10 justify-center'>
             <Image
                 src={"/thanks.svg"}
                 alt="Hero"

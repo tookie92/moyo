@@ -6,7 +6,7 @@ const Characteristics = () => {
   return (
     <section id='spec' className='w-full h-full py-40 bg-secondary'>
         <div className='flex flex-col gap-10 md:gap-20 lg:gap-20 px-5 md:px-20 lg:px-40 xl:container xl:mx-auto'>
-            <div className="flex gap-10">
+            <div className="flex flex-wrap w-full gap-10">
                 <MyTags>UX/UI</MyTags>
                 <MyTags>Research</MyTags>
                 <MyTags>Prototype</MyTags>
