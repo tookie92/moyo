@@ -11,7 +11,7 @@ import ChillWorld from '../myComponents/Chillworld'
 
 const Research = () => {
   return (
-    <div className='relative w-full h-full py-40 bg-foundation'>
+    <div id='research' className='snap-x scroll-mt-32 xl:scroll-mt-32 relative w-full h-full py-40 bg-foundation'>
         <div className='flex flex-col gap-10 md:gap-20 lg:gap-30 px-5 md:px-20 lg:px-40 xl:container xl:mx-auto'>
             <div className='flex flex-col w-full gap-10 md:gap-20 lg:gap-30 relative'>
                 
@@ -29,14 +29,14 @@ const Research = () => {
             </div>
 
             {/* Research Insights */}
-            <div className='flex flex-col gap-10 mb-22'>
+            <div id='insights' className='snap-x scroll-mt-32 xl:scroll-mt-32 flex flex-col gap-10 mb-22'>
                 <div className='flex flex-col gap-4 w-full'>
                     <h1 className='font-sans font-semibold text-lg uppercase'>research insights</h1>
                     <Separator className='bg-black'/>
                 </div>
                 
                 {/* Research Insights - 1 */}
-                <div className="flex flex-col">
+                <div  className=" flex flex-col">
                     <div className="flex flex-col md:flex-row gap-6">
                         <div className="flex items-center gap-4 w-full md:w-1/2">
                             <Image

@@ -4,7 +4,7 @@ import { Card, CardContent, CardFooter, CardTitle } from '../ui/card'
 
 const Principles = () => {
   return (
-    <div className='w-full h-full flex items-start xl:py-40    py-20 bg-primary'>
+    <div id='principles' className='snap-x scroll-mt-9 xl:scroll-mt-9 w-full h-full flex items-start xl:py-40    py-20 bg-primary'>
         <div className='flex flex-col gap-10 justify-center md:gap-40 lg:gap-20 px-5 md:px-20 lg:px-40 xl:container xl:mx-auto xl:gap-20'>
             <div className='flex flex-col gap-4'>
                 <h1 className='font-mono text-4xl text-white font-normal italic'>Design Principles</h1>

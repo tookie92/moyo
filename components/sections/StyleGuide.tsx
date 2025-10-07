@@ -5,7 +5,7 @@ import MyPoppins from '../myComponents/Poppins'
 
 const StyleGuide = () => {
   return (
-    <div className='w-full h-full py-10 bg-foundation'>
+    <div id='style' className='snap-x scroll-mt-9 xl:scroll-mt-28 w-full h-full py-10 bg-foundation'>
         <div className='flex flex-col gap-10 md:gap-20 lg:gap-10 px-5 md:px-20 lg:px-40 xl:container xl:mx-auto'>
         <div className=' flex flex-col gap-4 '>
                 <h1 className='font-mono text-4xl font-normal italic'> Style Guide </h1>

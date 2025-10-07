@@ -7,7 +7,7 @@ import Section from '../myComponents/Section'
 
 const HiFiOne = () => {
   return (
-    <Section background='foundation'>
+    <Section id='hifi' background='foundation' classname='py-20 scroll-mt-32 xl:scroll-mt-32'>
         <Title title='High Fidelity Wireframes'/>
         <div className="flex flex-col gap-20 w-full h-full">
             <div className='flex flex-col w-1/2 gap-2 '>

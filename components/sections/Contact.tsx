@@ -5,7 +5,7 @@ import Section from '../myComponents/Section'
 
 const Contact = () => {
   return (
-    <Section background="foundation" classname='relative flex min-h-screen py-20'>
+    <Section id='contact' background="foundation" classname='snap-x scroll-mt-9 lg:scroll-mt-9 relative flex min-h-screen py-20'>
         <div className='relative flex flex-col w-full gap-10 h-full items-center justify-center'>
             <Image
                 src={"/thanks.svg"}

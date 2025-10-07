@@ -4,7 +4,7 @@ import { Separator } from '../ui/separator'
 
 const Characteristics = () => {
   return (
-    <section className='w-full h-full py-40 bg-secondary'>
+    <section id='spec' className='w-full h-full py-40 bg-secondary'>
         <div className='flex flex-col gap-10 md:gap-20 lg:gap-20 px-5 md:px-20 lg:px-40 xl:container xl:mx-auto'>
             <div className="flex gap-10">
                 <MyTags>UX/UI</MyTags>
@@ -40,7 +40,7 @@ const Characteristics = () => {
             </div>
             
             {/* About */}
-            <div className='flex flex-col w-full gap-10 mt-10'>
+            <div id='about' className='snap-x scroll-mt-9 xl:scroll-mt-28 flex flex-col w-full gap-10 mt-10'>
                 <div className='flex flex-col gap-4'>
                     <h1 className='font-mono text-4xl font-normal italic'>about</h1>
                     <Separator className='bg-black'/>

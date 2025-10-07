@@ -5,7 +5,7 @@ import Section from '../myComponents/Section'
 
 const UserFlow = () => {
   return (
-    <Section background='foundation' classname='py-20'>
+    <Section  background='foundation' classname='py-20 '>
         <div className='w-full h-full   '>
             <Image
                 src={"/PictureOne.jpg"}
@@ -17,7 +17,7 @@ const UserFlow = () => {
             />
         </div>
 
-            <div className=' flex flex-col gap-4 '>
+            <div id='userflow' className=' flex flex-col gap-4 scroll-mt-32 xl:scroll-mt-32 '>
                 <h1 className='font-mono text-4xl font-normal italic'> UserFlow </h1>
                 <Separator className='bg-black'/>
             </div>

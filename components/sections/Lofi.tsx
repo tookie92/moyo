@@ -6,7 +6,7 @@ import Section from '../myComponents/Section'
 
 const Lofi = () => {
   return (
-    <Section background='foundation'>
+    <Section id='lofi' background='foundation' classname='py-20 scroll-mt-32 xl:scroll-mt-32'>
           <Title title='Low Fidelity Wireframes'/>
           <div className="flex w-full h-full">
               <Image
