@@ -1,10 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
 import { Separator } from '../ui/separator'
+import Section from '../myComponents/Section'
 
 const UserFlow = () => {
   return (
-    <div className='h-full py-40 flex-col flex pb-44 bg-foundation z-10 px-5 md:px-20 lg:px-40  gap-10 md:gap-40 lg:gap-20'>
+    <Section background='foundation' classname='py-20'>
         <div className='w-full h-full   '>
             <Image
                 src={"/PictureOne.jpg"}
@@ -38,7 +39,7 @@ const UserFlow = () => {
                 />
             </div>
         </div>
-    </div>
+    </Section>
   )
 }
 

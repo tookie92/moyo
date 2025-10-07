@@ -1,50 +1,50 @@
 import Image from 'next/image'
 import React from 'react'
-import SplitText from '../SplitText'
 
 const Hero = () => {
   return (
-    <div className=' flex  relative h-screen py-8 bg-foundation  '>
-        <div className=' relative z-10  flex  items-center  mx-auto  justify-around  px-5 md:px-20 lg:px-40  gap-10 md:gap-20 lg:gap-40  '>
-            <div className='flex flex-col gap-3 justify-center'>
-                <Image
-                    src={"./heromoyo.svg"}
-                    alt="Hero"
-                    width={500}
-                    height={500}
-                    priority
-                />
-               
-                <div className='flex flex-col gap-8 mt-8'>
-                    <p className='font-sans text-4xl leading-[1.5]'>
-                        Your easy way to <span className='font-mono italic'>volunteer</span> and<span className='font-mono italic'> connect</span> with others
-                    </p>
-                    <div className='flex flex-col gap-1'>
-                    <p className='flex text-primary font-sans font-semibold'> Stella Bartolomee | Joseph Ikinda | Karolina Braun</p>  
-                    <p className='flex font-sans '> SPICED Academy 2025</p>  
-                    </div>  
-                </div>  
-            </div>
-            <div className='flex    w-full h-full'>-
-                <Image
-                    src={"/heroprototype.png"}
-                    alt="Heroprotoype"
-                    width={1000}
-                    height={1000}
-                    className='w-full h-full object-cover'
-                />  
-            </div> 
+    <section className='relative pb-[10vh] lg:pb-0 lg:h-screen flex flex-col lg:flex-row items-center justify-center w-full bg-foundation'>
+        <div className='lg:container flex flex-col lg:flex-row items-center justify-between w-full px-5 md:px-20 lg:px-40 gap-10 lg:gap-20'>
+        <div className='py-16 lg:py-0 w-full lg:w-[450px] gap-y-8 h-auto flex flex-col items-center lg:items-start'>
+            <Image
+                src={"./heromoyo.svg"}
+                alt="Hero"
+                width={500}
+                height={500}
+                priority
+            />
+            
+            <p className='font-sans text-3xl lg:text-3xl leading-[1.5] text-center lg:text-left'>
+                Your easy way to <span className='font-mono italic'>volunteer</span> and <span className='font-mono italic'>connect</span> with others
+            </p>
+            
+            <div className='flex flex-col gap-1 text-center lg:text-left'>
+                <p className='text-primary font-sans font-semibold'>Stella Bartolomee | Joseph Ikinda | Karolina Braun</p>  
+                <p className='font-sans'>SPICED Academy 2025</p>  
+            </div>  
         </div>
-            {/* Background border - déborde en bas */}
-            <div className='absolute bottom-0 left-0 right-0 z-0 h-1/2 w-full'>
-                <Image
-                    src={"/bordergreen.svg"}
-                    alt="Hero"
-                    fill
-                    className='object-cover object-top-left '
-                />
-            </div>
-    </div>
+        
+        <div className='w-full lg:w-4/5 xl:z-10 flex items-center lg:h-[800px]'>
+            <Image 
+                src={"/heroprototype.png"}
+                alt="Hero prototype"
+                width={1000}
+                height={1000}
+                className='w-full h-auto'
+            />
+        </div>
+        
+        {/* Background border */}
+        <div className='absolute bottom-0 left-0 right-0 z-0 h-1/2 w-full'>
+            <Image
+                src={"/bordergreen.svg"}
+                alt="Border"
+                fill
+                className='object-cover object-top-left'
+            />
+        </div>
+        </div>
+    </section>
   )
 }
 

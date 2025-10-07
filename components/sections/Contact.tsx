@@ -1,45 +1,65 @@
 import Image from 'next/image'
 import React from 'react'
 import MyTags from '../myComponents/Tags'
+import Section from '../myComponents/Section'
 
 const Contact = () => {
   return (
-    <div className=' relative h-svh py-28 flex-col flex  bg-foundation z-10 px-5 md:px-20 lg:px-40  gap-10 md:gap-40 lg:gap-20'>
-        <div className=' relative flex flex-col w-full gap-10 h-full items-center justify-center'>
+    <Section background="foundation" classname='relative flex min-h-screen py-20'>
+        <div className='relative flex flex-col w-full gap-10 h-full items-center justify-center'>
             <Image
                 src={"/thanks.svg"}
                 alt="Hero"
                 width={350}
                 height={350}
+                // className='pb-0 xl:pb-10'
             />
-            <h3 className='font-mono text-primary italic text-5xl'>Get in touch with us</h3>
-            <div className="flex gap-10 mt-10">
-                <div className="flex flex-col items-center justify-center gap-10">
-                    <Image
-                        src={"/joseph.png"}
-                        alt="Hero"
-                        width={150}
-                        height={150}
-                    />
-                    <MyTags classname='bg-white text-black text-lg uppercase'>Joseph Ikinda</MyTags>
+             <h3 className='font-mono text-primary italic text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center'>
+                Get in touch with us
+            </h3>
+
+            {/* Contact */}
+             <div className="flex flex-col md:flex-row gap-8 lg:gap-12 xl:gap-16 mt-8 lg:mt-12 xl:mt-16 w-full justify-center">
+                <div className="flex flex-col items-center justify-center gap-6 lg:gap-8 xl:gap-10">
+                    <div className='w-24 h-24 md:w-40 md:h-40 lg:w-32 lg:h-32 xl:w-60 xl:h-60 relative'>
+                        <Image
+                            src={"/joseph.png"}
+                            alt="Joseph Ikinda"
+                            fill
+                            className='object-cover rounded-lg'
+                        />
+                    </div>
+                    <MyTags classname='bg-white text-black text-base md:text-lg lg:text-xl xl:text-2xl uppercase px-4 py-2'>
+                        Joseph Ikinda
+                    </MyTags>
                 </div>
-                <div className="flex flex-col items-center justify-center gap-10">
-                    <Image
-                        src={"/karo.png"}
-                        alt="Hero"
-                        width={150}
-                        height={150}
-                    />
-                    <MyTags classname='bg-white text-black text-lg uppercase'>Karo Braun</MyTags>
+                
+                <div className="flex flex-col items-center justify-center gap-6 lg:gap-8 xl:gap-10">
+                    <div className='w-32 h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 xl:w-60 xl:h-60 relative'>
+                        <Image
+                            src={"/karo.png"}
+                            alt="Karo Braun"
+                            fill
+                            className='object-cover rounded-lg'
+                        />
+                    </div>
+                    <MyTags classname='bg-white text-black text-base md:text-lg lg:text-xl xl:text-2xl uppercase px-4 py-2'>
+                        Karo Braun
+                    </MyTags>
                 </div>
-                <div className="flex flex-col items-center justify-center gap-10">
-                    <Image
-                        src={"/stella.png"}
-                        alt="Hero"
-                        width={150}
-                        height={150}
-                    />
-                    <MyTags classname='bg-white text-black text-lg uppercase'>Stella Bartolomee</MyTags>
+                
+                <div className="flex flex-col items-center justify-center gap-6 lg:gap-8 xl:gap-10">
+                    <div className='w-32 h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 xl:w-60 xl:h-60 relative'>
+                        <Image
+                            src={"/stella.png"}
+                            alt="Stella Bartolomee"
+                            fill
+                            className='object-cover rounded-lg'
+                        />
+                    </div>
+                    <MyTags classname='bg-white text-black text-base md:text-lg lg:text-xl xl:text-2xl uppercase px-4 py-2'>
+                        Stella Bartolomee
+                    </MyTags>
                 </div>
             </div>
         </div>
@@ -52,7 +72,7 @@ const Contact = () => {
                 className='object-cover object-top '
             />
         </div>
-    </div>
+    </Section>
   )
 }
 

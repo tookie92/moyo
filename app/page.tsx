@@ -15,7 +15,7 @@ import UserFlow from "@/components/sections/UserFlow";
 
 export default function Home() {
   return (
-    <div className="flex flex-col relative">
+     <main className="m-0 p-0 w-full mx-auto">
 
       <Hero />
        <Characteristics/>
@@ -30,6 +30,6 @@ export default function Home() {
        <Break/>
        <HiFiSecond/>
        <Contact/>
-    </div>
+    </main>
   );
 }

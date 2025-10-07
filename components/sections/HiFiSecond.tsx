@@ -5,7 +5,8 @@ import Image from 'next/image'
 
 const HiFiSecond = () => {
   return (
-    <div className='h-full min-h-screen  py-10 flex-col flex bg-tertiary z-10 px-5 md:px-20 lg:px-40  gap-10 md:gap-40 lg:gap-10 text-foundation'>
+    <div className='w-full h-full py-10 bg-tertiary text-foundation'>
+        <div className='flex flex-col gap-10 md:gap-20 lg:gap-10 px-5 md:px-20 lg:px-40 xl:container xl:mx-auto'>
         <Title color title='High Fidelity Wireframes'/>
         <div className="flex flex-col gap-20 w-full h-full">
             <div className='flex flex-col w-1/2 gap-2 '>
@@ -24,6 +25,7 @@ const HiFiSecond = () => {
                 />
             </div>
         </div>
+    </div>
     </div>
   )
 }
