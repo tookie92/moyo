@@ -41,19 +41,19 @@ export default function Navbar() {
         // { label: "Style Guide",href:"#style", ariaLabel: "Featured Projects" },
         { label: "Low Fidelity Wireframes",href:"#lofi", ariaLabel: "Featured Projects" },
         { label: "High Fidelity Wireframes",href:"#hifi", ariaLabel: "Featured Projects" },
-        // { label: "Insights",href:"/", ariaLabel: "Project Case Studies" }
+        { label: "Meet Us",href:"#contact", ariaLabel: "Project Case Studies" }
       ]
     },
-    {
-      label: "Contacts",
-      bgColor: "#1B4E49", 
-      textColor: "#fff",
-      links: [
-        { label: "Contact us",href:"#contact", ariaLabel: "Email us" },
-        // { label: "Twitter",href:"/", ariaLabel: "Twitter" },
-        // { label: "LinkedIn",href:"/", ariaLabel: "LinkedIn" }
-      ]
-    }
+    // {
+    //   label: "Contacts",
+    //   bgColor: "#1B4E49", 
+    //   textColor: "#fff",
+    //   links: [
+    //     { label: "Contact us",href:"#contact", ariaLabel: "Email us" },
+    //     // { label: "Twitter",href:"/", ariaLabel: "Twitter" },
+    //     // { label: "LinkedIn",href:"/", ariaLabel: "LinkedIn" }
+    //   ]
+    // }
   ];
 
   return (

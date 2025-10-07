@@ -6,7 +6,7 @@ import Mood from '../myComponents/Mood'
 
 const Persona = () => {
   return (
-    <div className='w-full h-full py-10 bg-secondary'>
+    <div id='persona' className='w-full h-full py-10 bg-secondary'>
         <div className='flex flex-col gap-10 md:gap-20 lg:gap-10 px-5 md:px-20 lg:px-40 xl:container xl:mx-auto'>
             <div className='flex flex-col gap-4'>
                 <h1 className='font-mono text-4xl font-normal italic'>User Persona</h1>
