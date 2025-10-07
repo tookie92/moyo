@@ -1,7 +1,7 @@
 import React from 'react'
 import { Separator } from '../ui/separator'
 import Image from 'next/image'
-import MyPoppins from '../myComponents/Poppins'
+
 
 const StyleGuide = () => {
   return (
