@@ -23,7 +23,7 @@ const Contact = () => {
                 <div className="flex flex-col items-center justify-center gap-6 lg:gap-8 xl:gap-10">
                     <div className='w-24 h-24 md:w-40 md:h-40 lg:w-32 lg:h-32 xl:w-60 xl:h-60 relative'>
                         <Image
-                            src={"/joseph.png"}
+                            src={"/Joseph.png"}
                             alt="Joseph Ikinda"
                             fill
                             className='object-cover rounded-lg'
